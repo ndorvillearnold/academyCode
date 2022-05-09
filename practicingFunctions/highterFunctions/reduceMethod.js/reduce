@@ -1,0 +1,15 @@
+//==========REDUCE RETURNS ONE VALUE====================================================================//
+const arrayOfNumbers = [1, 2, 3, 4];
+
+let newMap = arrayOfNumbers.reduce((acuumulator, currentValue) => {
+
+    return acuumulator + currentValue
+});
+
+console.log(newMap)  //10 because accumlitive property
+/* 
+[1, 2, 3, 4]  
+1 + 2 = 3 
+3+ 3 = 6
+6 + 4 = 10
+*/

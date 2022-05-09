@@ -1,0 +1,9 @@
+//info I feel like I can use to manipulae APIS if needed
+
+
+//sorts first and last name in order
+const alpha = people.sort((lastOne, nextOne) => {
+    const [aLast, aFirst] = lastOne.split(", ");
+    const [bLast, bFirst] = nextOne.split(", ");
+    return aLast > bLast ? 1 : -1   //if statement
+});
